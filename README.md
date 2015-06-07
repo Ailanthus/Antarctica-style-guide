@@ -41,9 +41,12 @@ Single or solo character delimiters ('=', for example) take precedence in defini
 ()
 * any single character operator.
 * the beginning or end character any keywords.
-* the first character of any word, number, or symbol preceeded by another Spine delimiter.
-* the last character of any word, number, or symbol suffixed by another Spine delimiter.
-* It is preferred for the semicolons to be aligned as the last Spine.
+* the first character of any word, number, or 
+  symbol preceeded by another Spine delimiter.
+* the last character of any word, number, or 
+  symbol suffixed by another Spine delimiter.
+* It is preferred for the semicolons to be 
+  aligned as the last Spine.
 ```
 
 Time is rarely spent outside of the Base except to perform operations that are necessarily outside of the scope of Base.
@@ -58,6 +61,7 @@ Time is rarely spent outside of the Base except to perform operations that are n
 
 However, most of the time, experiments, functions, and operations that are too large and costly in heat are performed in-house.
 
+```bash
 ```bash
   									case(REQUIREJS_SELECTED):{
 

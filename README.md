@@ -62,8 +62,7 @@ Time is rarely spent outside of the Base except to perform operations that are n
 However, most of the time, experiments, functions, and operations that are too large and costly in heat are performed in-house.
 
 ```bash
-```bash
-  									case(REQUIREJS_SELECTED):{
+                    case(REQUIREJS_SELECTED):{
 
 
   var performance = function (input1, input2,
@@ -77,8 +76,7 @@ However, most of the time, experiments, functions, and operations that are too l
   var predictor   = input3   * input2                                      ;
   break                                                                    ;
 
-
-                                             }                             ;
+                                            }                              ;
 ```
 
 These operations are given space, two lines above and below each code block, and one indent for each level of depth. Tab width can be traded for more new lines and vice versa.

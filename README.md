@@ -54,9 +54,9 @@ Time is rarely spent outside of the Base except to perform operations that are n
   switch (selected)      {
   									 case(SYSTEMJS_SELECTED): {
                                                 Perform.necesary(operation);
-                                                break;
+                                                break                      ;
   																						}                            ;
-                         }                  ;
+                         }                                                 ;
 ```
 
 However, most of the time, experiments, functions, and operations that are too large and costly in heat are performed in-house.
@@ -78,8 +78,7 @@ However, most of the time, experiments, functions, and operations that are too l
   break                                                                    ;
 
 
-
-  																					 }                             ;
+                                             }                             ;
 ```
 
 These operations are given space, two lines above and below each code block, and one indent for each level of depth. Tab width can be traded for more new lines and vice versa.
@@ -96,5 +95,5 @@ It's allowable for non-Antarctica coding styles to used on in-house operations.
 	     								};
 	  var predictor = input3 * input2;
 	  break;
-  																						};
+                                              };
 ```

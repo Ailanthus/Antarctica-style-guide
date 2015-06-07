@@ -55,7 +55,7 @@ Time is rarely spent outside of the Base except to perform operations that are n
   									 case(SYSTEMJS_SELECTED): {
                                                 Perform.necesary(operation);
                                                 break                      ;
-  																						}                            ;
+                                              }                            ;
                          }                                                 ;
 ```
 
@@ -74,7 +74,7 @@ However, most of the time, experiments, functions, and operations that are too l
   		                        // or
   		                               input3 =              input1 + input2 ;
   		                       }                                             ;
-  var predictor		= input3   * input2                                      ;
+  var predictor   = input3   * input2                                      ;
   break                                                                    ;
 
 
@@ -87,13 +87,16 @@ It's allowable for non-Antarctica coding styles to used on in-house operations.
 
 ```bash
   									case(REQUIREJS_SELECTED): {
-	  var performance = function (input1, input2, input3)  {
-												input3 = input1 + input2;
-		      							//        
-		      							// or
-		             				input3 = input1 + input2 ;
-	     								};
-	  var predictor = input3 * input2;
-	  break;
-                                              };
+  var performance = function (input1, input2, input3)  
+                    {
+                      input3 = input1 + input2;
+	      							//        
+	      							// or
+	             				input3 = input1 + input2;
+     								};
+  var predictor = input3 * input2;
+  break;
+};
 ```
+But it doesn't look as good.
+

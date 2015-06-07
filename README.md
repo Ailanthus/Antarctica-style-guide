@@ -57,7 +57,7 @@ Single or solo character delimiters ('=', for example) take precedence in defini
 Time is rarely spent outside of the Base except to perform operations that are necessarily outside of the scope of Base.
 ```bash
   switch (selected)      {
-  									 case(SYSTEMJS_SELECTED): {
+                     case(SYSTEMJS_SELECTED): {
                                                 Perform.necesary(operation);
                                                 break                      ;
                                               }                            ;
@@ -86,7 +86,7 @@ However, most of the time, experiments, functions, and operations that are too l
 
 These operations are given space, two lines above and below each code block, and one indent for each level of depth. Tab width can be traded for more new lines and vice versa.
 
-It's allowable for non-Antarctica coding styles to used on in-house operations.
+It's allowable for non-Antarctica coding styles to form in-house operations.
 
 ```bash
                     case(REQUIREJS_SELECTED): {
@@ -106,9 +106,67 @@ It's allowable for non-Antarctica coding styles to used on in-house operations.
   break;
 };
 ```
-But it doesn't look as good.
+Bases and subBases
+It's also possible to make as many Bases as one desires, and subBases as well but they must be delimited by a comment block and two lines with indentation.
+Furthermore, semi-colons must either conform to "semi-colon as last Spine" methodology or "semi-colon immediately after statement.""
 
-It's also possible to make as many Bases as one desires, and subBases as well.
 ```bash
-// Todo for showing how to make subBases.
+function a(b, c, function() {
+                             var d = function (e, f) {
+
+
+/****************************
+first comment block*********/
+
+function e (f, g, h) {
+
+
+                            /****************************
+                            second comment block********/
+function i (j, k, l) {
+
+
+if (1 + 1 = 2) {
+  console.log('All is right with the universe');
+               }
+  else {
+        console.log('Something is seriously wrong here!');
+       }
+  
+                     }
+                             /****************************
+                             closing second comment block*
+                             ****************************/
+                     }
+/****************************
+closing first comment block
+****************************/
+
+                                                     }
+
+                            })                                             ;
 ```
+
+If-else and Switch-case statements
+If-else
+and
+Switch-case
+may be formatted by including white space to the end of the delimiter.
+```bash
+if (1)
+      else 
+          performance(input1, input2, input3)                              ;
+switch (both_selected) {
+                        case BOTH_SELECTED: {
+                                             console.log("Out damn spot!") ;
+                                            }
+                        case NONE_SELECTED: {
+
+console.log('Whew')                       ;
+console.log('That was tough')             ;
+
+                                            }
+                       }
+```
+
+

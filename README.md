@@ -66,12 +66,12 @@ However, most of the time, experiments, functions, and operations that are too l
 
 
   var performance = function (input1, input2,
-  		              input3)  {
-  		                        input3 = input1 
-  		                               + input2                              ;
+                    input3)  {
+                              input3 = input1 
+                                     + input2                              ;
   		                        //        
-  		                        // or
-  		                               input3 =              input1 + input2 ;
+                              // or
+                              input3          =            input1 + input2 ;
   		                       }                                             ;
   var predictor   = input3   * input2                                      ;
   break                                                                    ;

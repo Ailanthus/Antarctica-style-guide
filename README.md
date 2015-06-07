@@ -69,7 +69,7 @@ However, most of the time, experiments, functions, and operations that are too l
                     input3)  {
                               input3 = input1 
                                      + input2                              ;
-  		                        //        
+                              //        
                               // or
                               input3          =            input1 + input2 ;
                              }                                             ;
@@ -103,3 +103,4 @@ It's allowable for non-Antarctica coding styles to used on in-house operations.
 ```
 But it doesn't look as good.
 
+It's also possible to make as many Bases as one desires, and subBases as well.

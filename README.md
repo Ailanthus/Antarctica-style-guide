@@ -86,14 +86,19 @@ These operations are given space, two lines above and below each code block, and
 It's allowable for non-Antarctica coding styles to used on in-house operations.
 
 ```bash
-  									case(REQUIREJS_SELECTED): {
+                    case(REQUIREJS_SELECTED): {
   var performance = function (input1, input2, input3)  
                     {
                       input3 = input1 + input2;
-	      							//        
-	      							// or
-	             				input3 = input1 + input2;
-     								};
+                      //        
+                      // or
+                      input3 = input1 + input2;
+                    };
+                      //
+                      // or
+  var performance = function (input1, input2, input3) {
+      input3 = input1 + input2;
+    }
   var predictor = input3 * input2;
   break;
 };

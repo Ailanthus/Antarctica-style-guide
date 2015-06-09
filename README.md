@@ -8,7 +8,7 @@ Warning: Antarctica only works for whitespace-agnostic languages,
 excluding: Python, CoffeeScript.
 
 ```bash
-I want noncoders to feel about code the way I feel about code.
+I want noncoders to feel about code the way I feel about code. The current world of coding is cold. Come find warmth and likability in the coldness here in Antarctica.
 ```
 
 Inspiration:
